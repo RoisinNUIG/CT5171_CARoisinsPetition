@@ -1,10 +1,11 @@
 
 // src/main/java/org/example/Petition.java
 package org.example;
-
+import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+//@Service
 public class Petition {
     private static int counter = 0;
     private final int id;
